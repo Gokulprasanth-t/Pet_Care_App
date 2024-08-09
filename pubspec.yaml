@@ -1,0 +1,28 @@
+name: pet_care
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.0.0
+  url_launcher: ^6.2.5
+  image_picker: ^0.8.4+4 # Added url_launcher dependency
+  google_maps_flutter: ^2.6.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+# Path: lib/main.dart
